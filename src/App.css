@@ -1,5 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  background-color: rgb(12, 159, 159);
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  color: #fff;
 }
-
-
+.counter {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+button {
+  background: #123;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
